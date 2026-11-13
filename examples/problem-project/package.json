@@ -1,0 +1,10 @@
+{
+  "name": "demo-project-with-issues",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node src/missing.js",
+    "build": "npm run lint",
+    "check": "eslint ."
+  }
+}

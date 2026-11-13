@@ -1,0 +1,20 @@
+{
+  "name": "script-inspector-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A small runnable demo of the published script-inspector npm package.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "inspect:demo": "node scripts/run-inspection.js issues",
+    "inspect:json": "node scripts/run-inspection.js json",
+    "inspect:strict": "node scripts/run-inspection.js strict",
+    "inspect:valid": "node scripts/run-inspection.js valid",
+    "test": "node --test"
+  },
+  "devDependencies": {
+    "script-inspector": "0.1.0"
+  }
+}
